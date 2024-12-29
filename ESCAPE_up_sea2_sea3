@@ -2,7 +2,7 @@ local placeId = game.PlaceId
 
 if placeId == 2753915549 then
     -- Sea 1
-    loadstring(game:HttpGet("_"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/ESCAPE_up_sea1/refs/heads/main/ESCAPE_up_sea1"))()
 elseif placeId == 4442272183 then
     -- Sea 2
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/ESCAPE_up_sea2/refs/heads/main/ESCAPE_up_sea2"))()
