@@ -1,13 +1,14 @@
-
 local placeId = game.PlaceId
 
-
-if placeId == 4442272183 then
-    
+if placeId == 2753915549 then
+    -- Sea 1
+    loadstring(game:HttpGet("_"))()
+elseif placeId == 4442272183 then
+    -- Sea 2
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/ESCAPE_up_sea2/refs/heads/main/ESCAPE_up_sea2"))()
 elseif placeId == 7449423635 then
-    
+    -- Sea 3
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/ESCAPE_up_sea3/refs/heads/main/ESCAPE_up_sea3"))()
 else
-    warn("Không phải ở Sea 2 hoặc Sea 3. Script không chạy.")
+    warn("Không phải ở Sea 1, Sea 2 hoặc Sea 3. Script không chạy.")
 end
